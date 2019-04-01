@@ -1,5 +1,5 @@
 {% set name = "memprof" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8aebb0ce5ec11a42bf06c1430fb5e9e1f91aec0709056bce4af94076c853a707
+  sha256: 2ec5e39eae7ad8c126ee179e6e50f06755503ce10f79dee320fea44034507834
 
 build:
-  number: 1000
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
