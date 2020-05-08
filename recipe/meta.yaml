@@ -11,7 +11,7 @@ source:
   sha256: a8376ce476bf82a5eb465d1a30b8ffc86cc55b0b6de7aa4cdeccb4c99586d967
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - cython
   run:
     - python
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
