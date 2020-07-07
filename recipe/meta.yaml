@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://jmdana.github.io/memprof/
-  license: GPL 3
+  license: GPL-3.0-or-later
   license_family: GPL3
   license_file: LICENSE
   summary: 'A memory profiler for Python. As easy as adding a decorator.'
