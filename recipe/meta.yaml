@@ -11,7 +11,7 @@ source:
   sha256: a8376ce476bf82a5eb465d1a30b8ffc86cc55b0b6de7aa4cdeccb4c99586d967
 
 build:
-  number: 4
+  number: 5
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -21,9 +21,11 @@ requirements:
     - python
     - pip
     - cython
+    - setuptools
   run:
     - python
     - matplotlib-base
+    - setuptools
 
 test:
   imports:
