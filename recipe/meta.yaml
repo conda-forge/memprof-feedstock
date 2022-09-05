@@ -21,9 +21,11 @@ requirements:
     - python
     - pip
     - cython
+    - setuptools
   run:
     - python
     - matplotlib-base
+    - setuptools
 
 test:
   imports:
